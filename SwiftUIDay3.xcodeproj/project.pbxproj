@@ -25,6 +25,8 @@
 		1F1D199124F44166007FF277 /* فهد الكندري.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F1D199024F44166007FF277 /* فهد الكندري.mp3 */; };
 		1F1D199424F44430007FF277 /* عثمان الخميس.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F1D199224F44430007FF277 /* عثمان الخميس.mp3 */; };
 		1F1D199524F44430007FF277 /* نبيل العوضي.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F1D199324F44430007FF277 /* نبيل العوضي.mp3 */; };
+		1F7C7FBF24F54DA300563348 /* CalculatorAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C7FBE24F54DA300563348 /* CalculatorAssignment.swift */; };
+		1F7C7FC124F54DE600563348 /* CalculatorModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7C7FC024F54DE600563348 /* CalculatorModifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		1F1D199024F44166007FF277 /* فهد الكندري.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "فهد الكندري.mp3"; sourceTree = "<group>"; };
 		1F1D199224F44430007FF277 /* عثمان الخميس.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "عثمان الخميس.mp3"; sourceTree = "<group>"; };
 		1F1D199324F44430007FF277 /* نبيل العوضي.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "نبيل العوضي.mp3"; sourceTree = "<group>"; };
+		1F7C7FBE24F54DA300563348 /* CalculatorAssignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorAssignment.swift; sourceTree = "<group>"; };
+		1F7C7FC024F54DE600563348 /* CalculatorModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorModifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +135,7 @@
 				1F1D198624F3F3D9007FF277 /* ScrollViewTesting.swift */,
 				1F1D198824F3FE4A007FF277 /* MosquesList.swift */,
 				1F1D198E24F41F34007FF277 /* MosqueDetails.swift */,
+				1F7C7FBE24F54DA300563348 /* CalculatorAssignment.swift */,
 				1F1D195424F2FFA8007FF277 /* Assets.xcassets */,
 				1F1D195924F2FFA8007FF277 /* LaunchScreen.storyboard */,
 				1F1D195C24F2FFA8007FF277 /* Info.plist */,
@@ -170,6 +175,7 @@
 			children = (
 				1F1D198024F300B2007FF277 /* MoviesModels.swift */,
 				1F1D198C24F403A7007FF277 /* MosquesModels.swift */,
+				1F7C7FC024F54DE600563348 /* CalculatorModifiers.swift */,
 			);
 			path = "New Group";
 			sourceTree = "<group>";
@@ -308,6 +314,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F7C7FC124F54DE600563348 /* CalculatorModifiers.swift in Sources */,
 				1F1D198724F3F3D9007FF277 /* ScrollViewTesting.swift in Sources */,
 				1F1D198324F30825007FF277 /* Movies.swift in Sources */,
 				1F1D198124F300B2007FF277 /* MoviesModels.swift in Sources */,
@@ -316,6 +323,7 @@
 				1F1D195124F2FFA5007FF277 /* SceneDelegate.swift in Sources */,
 				1F1D198924F3FE4A007FF277 /* MosquesList.swift in Sources */,
 				1F1D195324F2FFA5007FF277 /* ContentView.swift in Sources */,
+				1F7C7FBF24F54DA300563348 /* CalculatorAssignment.swift in Sources */,
 				1F1D198F24F41F34007FF277 /* MosqueDetails.swift in Sources */,
 				1F1D198524F30832007FF277 /* MovieDetails.swift in Sources */,
 			);

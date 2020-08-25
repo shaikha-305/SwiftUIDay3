@@ -24,8 +24,14 @@ struct MosquesList: View {
 
 struct MosquesList_Previews: PreviewProvider {
     static var previews: some View {
+        Group{
         MosquesList(mosque: Mosques[0])
             .environment(\.colorScheme, .dark)
+        MosquesList(mosque: Mosques[0])
+            .environment(\.colorScheme, .dark)
+            .previewDisplayName("Mosques List On 11 Pro Max")
+            .previewDevice("iPhone 11 Pro Max")
+    }
     }
 }
 
